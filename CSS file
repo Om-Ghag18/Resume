@@ -1,0 +1,53 @@
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navigation Styling */
+.navbar {
+    margin-bottom: 30px;
+}
+
+/* About Me Section */
+#about img {
+    border-radius: 50%;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #ffa200;
+    color: rgba(6, 0, 0, 0.963);
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Education Section */
+#education h4 {
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+}
+
+/* CSS to style the list and items */
+.inline-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: disc; /* Keeps default bullet points */
+}
+
+.inline-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
